@@ -120,7 +120,7 @@ export const BookCard = () => {
                 </h3>
                 <p className="mb-4 text-sm text-muted-foreground">
                   He contributed an Appendix on Rural Marketing in the 13th
-                  edition of Philip Kotler's Principles of Marketing.
+                  edition of Philip Kotler&apos;s Principles of Marketing.
                 </p>
                 <Button size="sm" variant="link">
                   Read more <ArrowRightIcon size={20} />

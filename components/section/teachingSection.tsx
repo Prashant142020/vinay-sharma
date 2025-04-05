@@ -2,6 +2,7 @@ import React from 'react';
 
 import { BookOpen } from 'lucide-react';
 import CourseSection from './courseSection';
+import Image from 'next/image';
 
 export default function TeachingSection() {
   return (
@@ -13,6 +14,7 @@ export default function TeachingSection() {
             Teaching & Courses
           </h2>
         </div>
+        public/logo
         <p className="text-muted-foreground">
           Courses taught and educational contributions.
         </p>
@@ -94,25 +96,49 @@ export default function TeachingSection() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="flex flex-col items-center">
               <div className="h-16 w-16 rounded-full bg-muted flex items-center justify-center mb-2">
-                <span className="font-semibold text-xs">IIM-B</span>
+                {/* <span className="font-semibold text-xs">IIM-B</span> */}
+                <Image
+                  src="/logo/iimb.svg"
+                  width={500}
+                  height={500}
+                  alt="Picture of the author"
+                />
               </div>
               <span className="text-sm">IIM Bangalore</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="h-16 w-16 rounded-full bg-muted flex items-center justify-center mb-2">
-                <span className="font-semibold text-xs">IIM-A</span>
+                {/* <span className="font-semibold text-xs">IIM-A</span>  */}
+                <Image
+                  src="/logo/iima.svg"
+                  width={500}
+                  height={500}
+                  alt="Picture of the author"
+                />
               </div>
               <span className="text-sm">IIM Ahmedabad</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="h-16 w-16 rounded-full bg-muted flex items-center justify-center mb-2">
-                <span className="font-semibold text-xs">CBS</span>
+                {/* <span className="font-semibold text-xs">CBS</span> */}
+                <Image
+                  src="/logo/cbs.png"
+                  width={500}
+                  height={500}
+                  alt="Picture of the author"
+                />
               </div>
               <span className="text-sm">CBS Denmark</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="h-16 w-16 rounded-full bg-muted flex items-center justify-center mb-2">
-                <span className="font-semibold text-xs">UMB</span>
+                {/* <span className="font-semibold text-xs">UMB</span> */}
+                <Image
+                  src="/logo/ub.png"
+                  width={500}
+                  height={500}
+                  alt="Picture of the author"
+                />
               </div>
               <span className="text-sm">U Mass Boston</span>
             </div>

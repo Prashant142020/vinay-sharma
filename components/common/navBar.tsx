@@ -30,6 +30,15 @@ export default function NavBar() {
             </span>
           </div>
           <nav className="hidden xl:flex items-center gap-6">
+            <Link href="/about" className="text-sm font-medium hover:underline">
+              About
+            </Link>
+            <Link
+              href="/projects"
+              className="text-sm font-medium hover:underline"
+            >
+              Projects
+            </Link>
             <Link
               href="/people"
               className="text-sm font-medium hover:underline"
@@ -87,6 +96,20 @@ export default function NavBar() {
         {menu ? (
           <div className=" z-50 p-6 shadow-md animate-in slide-in-from-right w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/85">
             <div className="flex flex-col gap-6 text-primary">
+              <Link
+                onClick={toggleMenu}
+                href="/about"
+                className="text-lg font-medium hover:underline"
+              >
+                About
+              </Link>
+              <Link
+                onClick={toggleMenu}
+                href="/projects"
+                className="text-lg font-medium hover:underline"
+              >
+                Projects
+              </Link>
               <Link
                 onClick={toggleMenu}
                 href="/people"

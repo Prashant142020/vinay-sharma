@@ -107,7 +107,7 @@ export const BookCard = () => {
             </div>
             <div className="group relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
               <Image
-                src="/book/book3.jpg"
+                src="/book/book4.jpg"
                 alt="Sapiens"
                 width={400}
                 height={600}
@@ -116,11 +116,11 @@ export const BookCard = () => {
               />
               <div className="bg-background p-4">
                 <h3 className="mb-2 text-xl font-medium">
-                  Stop Predicting Revisit Life
+                  Marketing Management
                 </h3>
                 <p className="mb-4 text-sm text-muted-foreground">
-                  It reviews India&apos;s COVID-19 response and suggests future
-                  strategies, improvements, and initiatives.
+                  He contributed an Appendix on Rural Marketing in the 13th
+                  edition of Philip Kotler's Principles of Marketing.
                 </p>
                 <Button size="sm" variant="link">
                   Read more <ArrowRightIcon size={20} />

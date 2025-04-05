@@ -14,6 +14,11 @@ export default function ProfessorPage() {
     <main className="container mx-auto py-8 px-6 md:px-12">
       <HeroSection />
 
+      {/* <video controls width="600">
+        <source src="/Sir.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video> */}
+
       <AwardsSetion />
 
       <TeachingSection />

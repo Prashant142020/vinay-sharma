@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BookOpen } from 'lucide-react';
+import { TvMinimalPlay } from 'lucide-react';
 import CourseSection from './courseSection';
 import Image from 'next/image';
 
@@ -9,12 +9,12 @@ export default function TeachingSection() {
     <section id="teaching" className="py-12 scroll-mt-20">
       <div className="space-y-4">
         <div className="flex items-center gap-2">
-          <BookOpen className="h-6 w-6 text-primary" />
+          <TvMinimalPlay className="h-6 w-6 text-primary" />
           <h2 className="text-3xl font-bold tracking-tight">
             Teaching & Courses
           </h2>
         </div>
-        public/logo
+
         <p className="text-muted-foreground">
           Courses taught and educational contributions.
         </p>

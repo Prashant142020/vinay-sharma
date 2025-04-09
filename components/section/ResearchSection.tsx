@@ -1,5 +1,4 @@
 import { FileText } from 'lucide-react';
-import Image from 'next/image';
 import React from 'react';
 import {
   Accordion,
@@ -9,13 +8,6 @@ import {
 } from '../ui/accordion';
 import Link from 'next/link';
 import { Button } from '../ui/button';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '../ui/card';
 
 export default function ResearchSection() {
   return (
@@ -28,21 +20,15 @@ export default function ResearchSection() {
               Research & Publications
             </h2>
           </div>
-
-          {/* <div className="flex items-center gap-2 ">
-            <Button variant={'link'}>
-              View all <ArrowRight className="h-6 w-6 text-primary" />
-            </Button>
-          </div> */}
         </div>
 
         {/* <hr /> */}
         <p className="text-muted-foreground">
-          Major contributions to academic literature and research.
+          Contributions to academic literature and research.
         </p>
       </div>
       <div className="mt-8 space-y-8">
-        <div>
+        {/* <div>
           <h3 className="text-xl font-semibold mb-4">Major Contributions</h3>
           <ul className="grid gap-3 md:grid-cols-2">
             <li className="flex items-start gap-2">
@@ -64,7 +50,7 @@ export default function ResearchSection() {
               </span>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div id="publications">
           <h3 className="text-xl font-semibold mb-4">Select Publications</h3>
           <Accordion type="single" collapsible className="w-full">
@@ -153,7 +139,7 @@ export default function ResearchSection() {
             <Button variant="outline">View All Publications</Button>
           </div>
         </div>
-        <div>
+        {/* <div>
           <h3 className="text-xl font-semibold mb-4">Case Studies</h3>
           <Card>
             <CardHeader>
@@ -186,7 +172,7 @@ export default function ResearchSection() {
               </div>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
       </div>
     </section>
   );

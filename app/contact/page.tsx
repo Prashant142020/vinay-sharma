@@ -64,7 +64,7 @@ const page = () => {
             <div className="space-y-2">
               <div>
                 <p className="text-muted-foreground">
-                  Department of Management Studies,
+                  First Floor, Department of Management Studies,
                   <br />
                   Indian Institute of Technology (IIT),
                   <br />

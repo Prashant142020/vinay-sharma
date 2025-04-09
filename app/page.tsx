@@ -2,12 +2,11 @@ import HeroSection from '@/components/section/heroSection';
 import AwardsSetion from '@/components/section/awardsSetion';
 import TeachingSection from '@/components/section/teachingSection';
 import ResearchSection from '@/components/section/ResearchSection';
-import InnovationsSection from '@/components/section/InnovationsSection';
 import PhdSection from '@/components/section/PhdSection';
-import ConferencesSection from '@/components/section/ConferencesSection';
 import LeadershipSection from '@/components/section/LeadershipSection';
 import SpiritualitySection from '@/components/section/SpiritualitySection';
 import BookSection from '@/components/section/bookSection';
+import MajorContributions from '@/components/section/MajorContributions';
 
 export default function ProfessorPage() {
   return (
@@ -25,13 +24,15 @@ export default function ProfessorPage() {
 
       <BookSection />
 
+      <MajorContributions />
+
       <ResearchSection />
 
-      <InnovationsSection />
+      {/* <InnovationsSection />  */}
 
       <PhdSection />
 
-      <ConferencesSection />
+      {/* <ConferencesSection /> */}
 
       <LeadershipSection />
 

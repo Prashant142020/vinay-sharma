@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from '../ui/card';
+import { Button } from '../ui/button';
 
 export default function LeadershipSection() {
   return (
@@ -19,6 +20,31 @@ export default function LeadershipSection() {
         <p className="text-muted-foreground">
           Administrative and leadership roles.
         </p>
+      </div>
+      <div className="mt-8 space-y-8">
+        <h3 className="text-xl font-semibold mb-4">Major Contributions</h3>
+        <ul className="grid gap-3 md:grid-cols-2">
+          <li className="flex items-start gap-2">
+            <div className="mt-1 h-2 w-2 rounded-full bg-primary" />
+            <span>2.15 cr. International Salary for 1 student</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <div className="mt-1 h-2 w-2 rounded-full bg-primary" />
+            <span>1.8 cr. Domestic Salary for 3 students: </span>
+          </li>
+          <li className="flex items-start gap-2">
+            <div className="mt-1 h-2 w-2 rounded-full bg-primary" />
+            <span>11 Students got more than 1 cr. Salary</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <div className="mt-1 h-2 w-2 rounded-full bg-primary" />
+            <span> 32 International offers: </span>
+          </li>
+          <li className="flex items-start gap-2">
+            <div className="mt-1 h-2 w-2 rounded-full bg-primary" />
+            <span> 1416 job offers: </span>
+          </li>
+        </ul>
       </div>
       <div className="mt-8">
         <Card>
@@ -54,6 +80,9 @@ export default function LeadershipSection() {
             </div>
           </CardContent>
         </Card>
+        <div className="mt-8 flex justify-center">
+          <Button variant="outline">View All Administrative feats </Button>
+        </div>
       </div>
     </section>
   );

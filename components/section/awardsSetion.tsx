@@ -23,8 +23,8 @@ export default function AwardsSetion() {
       <div className="mt-8 grid gap-6 md:grid-cols-2">
         <Card>
           <CardHeader className="flex flex-row items-center gap-4">
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
-              <Award className="h-6 w-6 text-primary" />
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10">
+              <Award className="h-6 w-6 text-primary shrink-0" />
             </div>
             <div>
               <CardTitle>

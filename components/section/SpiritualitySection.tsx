@@ -1,7 +1,5 @@
 import { Heart } from 'lucide-react';
 import React from 'react';
-import { Card, CardContent } from '../ui/card';
-import { Button } from '../ui/button';
 
 export default function SpiritualitySection() {
   return (
@@ -17,7 +15,7 @@ export default function SpiritualitySection() {
           Contributions to Indian Knowledge Systems and spiritual teachings.
         </p>
       </div>
-      <div className="mt-8 space-y-8">
+      {/* <div className="mt-8 space-y-8">
         <div>
           <h3 className="text-xl font-semibold mb-4">Ramayana/Gita Teaching</h3>
           <Card>
@@ -96,7 +94,7 @@ export default function SpiritualitySection() {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

@@ -21,7 +21,8 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <MapPin className="h-4 w-4 text-muted-foreground" />
             <span>
-              Department of Management Studies IIT Roorkee, Uttarakhand, India
+              First Floor,Department of Management Studies IIT Roorkee,
+              Uttarakhand, India
             </span>
           </div>
         </div>

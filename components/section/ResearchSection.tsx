@@ -11,7 +11,7 @@ import { Button } from '../ui/button';
 
 export default function ResearchSection() {
   return (
-    <section id="research" className="py-12 scroll-mt-20">
+    <section id="research" className="py-12 scroll-mt-20 ">
       <div className="space-y-4">
         <div className="flex justify-between">
           <div className="flex items-center gap-2">
@@ -136,7 +136,9 @@ export default function ResearchSection() {
             </AccordionItem>
           </Accordion>
           <div className="mt-4 flex justify-center">
-            <Button variant="outline">View All Publications</Button>
+            <Link href="/publications">
+              <Button variant="outline">View All Publications</Button>
+            </Link>
           </div>
         </div>
         {/* <div>

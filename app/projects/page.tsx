@@ -1,7 +1,10 @@
+import ResearchTables from '@/components/research-tables';
 import React from 'react';
 
 export default function page() {
   return (
-    <div className="min-h-screen flex justify-center items-center">page</div>
+    <main className=" p-4 md:p-8 lg:p-12">
+    <ResearchTables />
+  </main>
   );
 }

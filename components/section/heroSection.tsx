@@ -63,7 +63,7 @@ export default function HeroSection() {
         <div className="grid gap-6 lg:grid-cols-[2fr_1fr] lg:gap-12 items-center">
           <div className="space-y-4">
             <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
-              IIT Roorkee, Department of Management
+              Department of Management Studies, IIT Roorkee
             </div>
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
               Prof. Vinay Sharma

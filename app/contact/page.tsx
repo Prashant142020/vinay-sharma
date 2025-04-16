@@ -3,7 +3,7 @@ import React from 'react';
 
 const page = () => {
   return (
-    <div className="h-screen container mx-auto py-8 px-6 md:px-12  ">
+    <div className="px-4 min-h-screen  flex items-center justify-center">
       <div className="rounded-lg p-1 ">
         <div className="mb-6 flex items-center space-x-4">
           <div>

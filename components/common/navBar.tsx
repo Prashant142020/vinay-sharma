@@ -39,18 +39,18 @@ export default function NavBar() {
             >
               Projects
             </Link>
-            <Link
-              href="/people"
-              className="text-sm font-medium hover:underline"
-            >
-              People
-            </Link>
 
             <Link
               href="/poetry"
               className="text-sm font-medium hover:underline"
             >
               Poetry
+            </Link>
+            <Link
+              href="/problems-addressed"
+              className="text-sm font-medium hover:underline"
+            >
+              Problems addressed
             </Link>
             <Link
               href="/contact"
@@ -110,19 +110,20 @@ export default function NavBar() {
               >
                 Projects
               </Link>
-              <Link
-                onClick={toggleMenu}
-                href="/people"
-                className="text-lg font-medium hover:underline"
-              >
-                People
-              </Link>
+
               <Link
                 onClick={toggleMenu}
                 href="/poetry"
                 className="text-lg font-medium hover:underline"
               >
                 Poetry
+              </Link>
+              <Link
+                onClick={toggleMenu}
+                href="/problems-addressed"
+                className="text-lg font-medium hover:underline"
+              >
+                Problems addressed
               </Link>
 
               <Link

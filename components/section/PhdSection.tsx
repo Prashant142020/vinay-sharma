@@ -43,23 +43,10 @@ export default function PhdSection() {
                   </thead>
                   <tbody>
                     <tr className="border-b">
-                      <td className="px-4 py-3 text-sm">Dr. Ananya Sharma</td>
+                      <td className="px-4 py-3 text-sm"> Dr. Kapil Joshi</td>
                       <td className="px-4 py-3 text-sm">
-                        Consumer Behavior in Rural Markets: A Study of FMCG
-                        Products in Northern India
-                      </td>
-                      <td className="px-4 py-3 text-sm">2022</td>
-                      <td className="px-4 py-3 text-sm">
-                        <Badge className="bg-green-100 text-green-800 hover:bg-green-100">
-                          Awarded
-                        </Badge>
-                      </td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="px-4 py-3 text-sm">Dr. Rajiv Mehta</td>
-                      <td className="px-4 py-3 text-sm">
-                        Sustainable Supply Chain Management in Emerging
-                        Economies: Challenges and Opportunities
+                        POST DOCTORAL THESIS on Practically realising the Value
+                        Chain
                       </td>
                       <td className="px-4 py-3 text-sm">2021</td>
                       <td className="px-4 py-3 text-sm">
@@ -69,23 +56,50 @@ export default function PhdSection() {
                       </td>
                     </tr>
                     <tr className="border-b">
-                      <td className="px-4 py-3 text-sm">Dr. Priya Patel</td>
+                      <td className="px-4 py-3 text-sm"> Anita Sengar</td>
                       <td className="px-4 py-3 text-sm">
-                        Digital Marketing Strategies for Small Businesses in
-                        Semi-Urban India
+                        A Study of Evolving Perspectives of Rural Markets.
                       </td>
-                      <td className="px-4 py-3 text-sm">2020</td>
+                      <td className="px-4 py-3 text-sm">2014</td>
                       <td className="px-4 py-3 text-sm">
                         <Badge className="bg-green-100 text-green-800 hover:bg-green-100">
                           Awarded
                         </Badge>
                       </td>
                     </tr>
-                    <tr>
-                      <td className="px-4 py-3 text-sm">Dr. Sanjay Kumar</td>
+                    <tr className="border-b">
+                      <td className="px-4 py-3 text-sm">Kapil Joshi</td>
                       <td className="px-4 py-3 text-sm">
-                        Innovation Adoption in Agricultural Communities: A Study
-                        of Technology Diffusion
+                        Climate change mitigation through management of pine
+                        forest bio residue in N-W Himalayas.
+                      </td>
+                      <td className="px-4 py-3 text-sm">2015</td>
+                      <td className="px-4 py-3 text-sm">
+                        <Badge className="bg-green-100 text-green-800 hover:bg-green-100">
+                          Awarded
+                        </Badge>
+                      </td>
+                    </tr>
+
+                    <tr className="border-b">
+                      <td className="px-4 py-3 text-sm"> Kumkum Bharti</td>
+                      <td className="px-4 py-3 text-sm">
+                        Conceptualizing and measuring value co-creation for the
+                        bottom of the pyramid marketing in India.
+                      </td>
+                      <td className="px-4 py-3 text-sm">2019</td>
+                      <td className="px-4 py-3 text-sm">
+                        <Badge className="bg-green-100 text-green-800 hover:bg-green-100">
+                          Awarded
+                        </Badge>
+                      </td>
+                    </tr>
+
+                    <tr className="border-b">
+                      <td className="px-4 py-3 text-sm"> Kumkum Bharti</td>
+                      <td className="px-4 py-3 text-sm">
+                        Conceptualizing and measuring value co-creation for the
+                        bottom of the pyramid marketing in India.
                       </td>
                       <td className="px-4 py-3 text-sm">2019</td>
                       <td className="px-4 py-3 text-sm">
@@ -121,12 +135,13 @@ export default function PhdSection() {
                   </thead>
                   <tbody>
                     <tr className="border-b">
-                      <td className="px-4 py-3 text-sm">Vikram Singh</td>
+                      <td className="px-4 py-3 text-sm">Manvi Goel</td>
                       <td className="px-4 py-3 text-sm">
-                        AI-Driven Marketing Strategies for Rural Market
-                        Penetration
+                        A marketers&apos; Perspective on Integrated Marketing
+                        Communication through the lenses of Linguistic
+                        Relativity
                       </td>
-                      <td className="px-4 py-3 text-sm">2022</td>
+                      <td className="px-4 py-3 text-sm">2019</td>
                       <td className="px-4 py-3 text-sm">
                         <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">
                           Ongoing
@@ -134,10 +149,23 @@ export default function PhdSection() {
                       </td>
                     </tr>
                     <tr className="border-b">
-                      <td className="px-4 py-3 text-sm">Meera Desai</td>
+                      <td className="px-4 py-3 text-sm">Rakesh G Nair</td>
                       <td className="px-4 py-3 text-sm">
-                        Sustainable Business Models in the Post-Pandemic Era: A
-                        Study of Indian SMEs
+                        Growers Insights on Branding and Marketing of
+                        Plant-based Immunomodulators in Indian Himalayan Region
+                      </td>
+                      <td className="px-4 py-3 text-sm">2020</td>
+                      <td className="px-4 py-3 text-sm">
+                        <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">
+                          Ongoing
+                        </Badge>
+                      </td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="px-4 py-3 text-sm">Ariba Anjum</td>
+                      <td className="px-4 py-3 text-sm">
+                        Marketing Saga of Universally Familiar Products: A Tale
+                        with an Inventors and Innovators Perspective
                       </td>
                       <td className="px-4 py-3 text-sm">2021</td>
                       <td className="px-4 py-3 text-sm">
@@ -146,13 +174,47 @@ export default function PhdSection() {
                         </Badge>
                       </td>
                     </tr>
-                    <tr>
-                      <td className="px-4 py-3 text-sm">Arjun Reddy</td>
+                    <tr className="border-b">
+                      <td className="px-4 py-3 text-sm">Nandhakishore K</td>
+                      <td className="px-4 py-3 text-sm">Brand IIT Éclat</td>
+                      <td className="px-4 py-3 text-sm">2021</td>
                       <td className="px-4 py-3 text-sm">
-                        Digital Transformation of Traditional Retail: Challenges
-                        and Opportunities
+                        <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">
+                          Ongoing
+                        </Badge>
                       </td>
-                      <td className="px-4 py-3 text-sm">2023</td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="px-4 py-3 text-sm">Neha</td>
+                      <td className="px-4 py-3 text-sm">
+                        Celebrity Homologation of Celebrity endorsement
+                      </td>
+                      <td className="px-4 py-3 text-sm">2021</td>
+                      <td className="px-4 py-3 text-sm">
+                        <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">
+                          Ongoing
+                        </Badge>
+                      </td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="px-4 py-3 text-sm">Gajendra Giri</td>
+                      <td className="px-4 py-3 text-sm">
+                        Actual Benefits of Contemporary Avtar of Traditional
+                        Process
+                      </td>
+                      <td className="px-4 py-3 text-sm">2021</td>
+                      <td className="px-4 py-3 text-sm">
+                        <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">
+                          Ongoing
+                        </Badge>
+                      </td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="px-4 py-3 text-sm">Kritika Sharma</td>
+                      <td className="px-4 py-3 text-sm">
+                        Technology and Traditional Knowledge
+                      </td>
+                      <td className="px-4 py-3 text-sm">2022</td>
                       <td className="px-4 py-3 text-sm">
                         <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">
                           Ongoing

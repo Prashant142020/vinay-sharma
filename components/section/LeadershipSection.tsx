@@ -1,13 +1,5 @@
 import { Briefcase } from 'lucide-react';
 import React from 'react';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '../ui/card';
-import { Button } from '../ui/button';
 
 export default function LeadershipSection() {
   return (
@@ -15,10 +7,19 @@ export default function LeadershipSection() {
       <div className="space-y-4">
         <div className="flex items-center gap-2">
           <Briefcase className="h-6 w-6 text-primary" />
-          <h2 className="text-3xl font-bold tracking-tight">Leadership</h2>
+          <h2 className="text-3xl font-bold tracking-tight">
+            {' '}
+            Administrative Feats
+          </h2>
         </div>
         <p className="text-muted-foreground">
-          Administrative and leadership roles.
+          Professor In Charge Placement and Internship Cell at Institute level
+          at IIT Roorkee from (May) 2018-2022 (July), where in his team
+          initiated the placement and internship journey from 2017-18. Starting
+          Point 1022 Job offers with (Overall) Average CTC 12.33 and Median CTC
+          9.60 Lakh Rs. to Average CTC 20.57 and Median CTC 16.00 Lakh Rs in
+          2021-22 With Graduate Employment 100% as per QS Data Sheet for
+          Rankings 2023.
         </p>
       </div>
       <div className="mt-8 space-y-8">
@@ -46,7 +47,7 @@ export default function LeadershipSection() {
           </li>
         </ul>
       </div>
-      <div className="mt-8">
+      {/* <div className="mt-8">
         <Card>
           <CardHeader>
             <CardTitle>Placement Cell at IIT Roorkee</CardTitle>
@@ -83,7 +84,7 @@ export default function LeadershipSection() {
         <div className="mt-8 flex justify-center">
           <Button variant="outline">View All Administrative feats </Button>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

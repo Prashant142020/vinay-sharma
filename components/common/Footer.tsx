@@ -1,4 +1,4 @@
-import { Mail, MapPin, Youtube } from 'lucide-react';
+import { Mail, MapPin, Phone, Youtube } from 'lucide-react';
 import React from 'react';
 import { Button } from '../ui/button';
 import Link from 'next/link';
@@ -19,9 +19,13 @@ export default function Footer() {
             <span>vinay.sharma@ms.iitr.ac.in</span>
           </div>
           <div className="flex items-center gap-2">
-            <MapPin className="h-4 w-4 text-muted-foreground" />
+            <Phone className="h-4 w-4 text-muted-foreground shrink-0" />
+            <span> +91 1332 285175</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <MapPin className="h-4 w-4 text-muted-foreground shrink-0" />
             <span>
-              First Floor,Department of Management Studies IIT Roorkee,
+              First Floor, Department of Management Studies IIT Roorkee,
               Uttarakhand, India
             </span>
           </div>

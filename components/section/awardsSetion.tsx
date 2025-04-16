@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from '../ui/card';
 import { Award } from 'lucide-react';
+import Link from 'next/link';
 
 export default function AwardsSetion() {
   return (
@@ -27,10 +28,12 @@ export default function AwardsSetion() {
               <Award className="h-6 w-6 text-primary shrink-0" />
             </div>
             <div>
-              <CardTitle>
-                National Award to Teachers 2024, presented by the President of
-                India
-              </CardTitle>
+              <Link href="https://ndtv.in/videos/national-teachers-award-award-announced-for-professor-vinay-sharma-watch-this-special-conversation-834059">
+                <CardTitle className="hover:underline cursor-pointer">
+                  National Award to Teachers 2024, presented by the President of
+                  India
+                </CardTitle>
+              </Link>
               <CardDescription>2024</CardDescription>
             </div>
           </CardHeader>
@@ -39,6 +42,28 @@ export default function AwardsSetion() {
               A renowned expert in marketing, innovation, branding, and
               strategy, he is the only management professor from India to
               receive this prestigious recognition.
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader className="flex flex-row items-center gap-4">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
+              <Award className="h-6 w-6 text-primary" />
+            </div>
+            <div>
+              <Link href="https://link.springer.com/journal/13162/updates/26631600"></Link>
+              <CardTitle className="hover:underline cursor-pointer">
+                Sheth Foundation Award
+              </CardTitle>
+              <CardDescription>2024</CardDescription>
+            </div>
+          </CardHeader>
+          <CardContent>
+            <p className="text-sm text-muted-foreground">
+              Winner of Academy of Marketing Science (AMS) Review Doctoral
+              Competition 2024 (Joint paper awarded – award received by the
+              scholar).
             </p>
           </CardContent>
         </Card>
@@ -56,25 +81,8 @@ export default function AwardsSetion() {
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground ">
-              Awarded for exceptional contributions to management research and
-              academic excellence.
-            </p>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardHeader className="flex flex-row items-center gap-4">
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
-              <Award className="h-6 w-6 text-primary" />
-            </div>
-            <div>
-              <CardTitle>Sheth Foundation Award</CardTitle>
-              <CardDescription>2024</CardDescription>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <p className="text-sm text-muted-foreground">
-              Recognized for significant contributions to marketing theory and
-              practice.
+              Awarded at 21st AIMS International Conference on Management in
+              2024.
             </p>
           </CardContent>
         </Card>
@@ -90,8 +98,8 @@ export default function AwardsSetion() {
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground">
-              Awarded consecutively for outstanding research in sustainable
-              business practices.
+              Award received two times consecutively for developing a business
+              model for the Sugar Industry of India. (2013, 2014)
             </p>
           </CardContent>
         </Card>

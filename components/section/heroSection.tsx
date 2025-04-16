@@ -69,9 +69,9 @@ export default function HeroSection() {
               Prof. Vinay Sharma
             </h1>
             <p className="max-w-[700px] text-lg text-muted-foreground">
-              Award-winning marketing fellow specializing in rural markets,
-              innovation, and sustainability with a focus on emerging economies
-              and sustainable business practices.
+              National award-winning fellow specializing in product &amp; brand
+              management, integrated marketing communication, strategic
+              management, and innovation in marketing &amp; business models.
             </p>
           </div>
         </div>
@@ -83,18 +83,20 @@ export default function HeroSection() {
             </span>
           </div>
           <div className="flex flex-col items-center justify-center rounded-lg border bg-card p-4 text-center shadow-sm">
-            <span className="text-3xl font-bold">50+</span>
+            <span className="text-3xl font-bold">80+</span>
             <span className="text-sm text-muted-foreground">
-              Research Papers
+              Journal Publications
             </span>
           </div>
           <div className="flex flex-col items-center justify-center rounded-lg border bg-card p-4 text-center shadow-sm">
-            <span className="text-3xl font-bold">15</span>
-            <span className="text-sm text-muted-foreground">PhDs Guided</span>
+            <span className="text-3xl font-bold">80+</span>
+            <span className="text-sm text-muted-foreground">
+              Conference Publications
+            </span>
           </div>
           <div className="flex flex-col items-center justify-center rounded-lg border bg-card p-4 text-center shadow-sm">
-            <span className="text-3xl font-bold">12</span>
-            <span className="text-sm text-muted-foreground">Patents Filed</span>
+            <span className="text-3xl font-bold">15+</span>
+            <span className="text-sm text-muted-foreground">PhDs Guided</span>
           </div>
         </div>
       </section>

@@ -1,4 +1,3 @@
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import React from 'react';
 
 export default function page() {
@@ -119,307 +118,225 @@ export default function page() {
         </div>
       </section>
 
-      <div className="max-w-3xl">
-        <h1 className="mb-6 text-3xl font-bold">Experience</h1>
-        <div className="space-y-8">
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="Hack Western 5" />
-              <AvatarFallback>HW5</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                16th December-2019 -{'>'} Presently Working
-              </p>
-              <h2 className="text-xl font-semibold">Professor</h2>
-              <p className="text-sm text-muted-foreground">
-                INDIAN INSTITUTE OF TECHNOLOGY (IIT) ROORKEE
-              </p>
-              <p>
-                Teaching (Marketing and Innovation), Research (Market
-                Opportunity Development). Also Managed Training and Placements
-                for all the Graduating Students of IIT Roorkee.
-              </p>
+      <div className="   mt-30">
+        {/* Employment Details Section */}
+        <section className="mb-10">
+          <h2 className="text-2xl font-bold text-center mb-6 text-gray-800 border-b pb-2">
+            EMPLOYMENT DETAILS
+          </h2>
+
+          <div className="space-y-8">
+            {/* IIT ROORKEE - PROFESSOR */}
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-4">
+              <div>
+                <h3 className="font-semibold">
+                  Employer: INDIAN INSTITUTE OF TECHNOLOGY (IIT) ROORKEE
+                </h3>
+                <p className="font-medium">Post Held: PROFESSOR</p>
+                <p className="text-gray-700 mt-1">
+                  Nature of Work: Teaching (Marketing and Innovation), Research
+                  (Market Opportunity Development). Also Managed Training and
+                  Placements for all the Graduating Students of IIT Roorkee.
+                </p>
+              </div>
+              <div className="text-right">
+                <p>From: 16th December, 2019</p>
+                <p>To: Presently Working</p>
+              </div>
+            </div>
+
+            {/* IIT ROORKEE - ASSOCIATE PROFESSOR */}
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-4">
+              <div>
+                <h3 className="font-semibold">
+                  Employer: INDIAN INSTITUTE OF TECHNOLOGY (IIT) ROORKEE
+                </h3>
+                <p className="font-medium">Post Held: ASSOCIATE PROFESSOR</p>
+                <p className="text-gray-700 mt-1">
+                  Nature of Work: Teaching (Marketing and Innovation), Research
+                  (Market Opportunity Development). Also Managed Training and
+                  Placements for the Graduating all Students of IIT Roorkee.
+                </p>
+              </div>
+              <div className="text-right">
+                <p>From: 04-Apr-2014</p>
+                <p>To: 16th December, 2019</p>
+                <p>Duration: Years: 5 Months: 8 Days: 13</p>
+              </div>
+            </div>
+
+            {/* IIT ROORKEE - ASSISTANT PROFESSOR */}
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-4">
+              <div>
+                <h3 className="font-semibold">
+                  Employer: INDIAN INSTITUTE OF TECHNOLOGY (IIT) ROORKEE
+                </h3>
+                <p className="font-medium">Post Held: ASSISTANT PROFESSOR</p>
+                <p className="text-gray-700 mt-1">
+                  Nature of Work: Teaching (Marketing and Innovation), Research
+                  (Market Opportunity Development). Also Managed Training and
+                  Placements for the Graduating Students of Department of
+                  Management Studies, IIT, Roorkee.
+                </p>
+              </div>
+              <div className="text-right">
+                <p>From: 01-Jul-2008</p>
+                <p>To: 03-Apr-2014</p>
+                <p>Duration: Years: 5 Months: 9 Days: 2</p>
+              </div>
+            </div>
+
+            {/* IILM LUCKNOW */}
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-4">
+              <div>
+                <h3 className="font-semibold">Employer: IILM LUCKNOW</h3>
+                <p className="font-medium">Post Held: PROFESSOR and DEAN</p>
+                <p className="text-gray-700 mt-1">
+                  Nature of Work: Teaching (Marketing), Research (Market
+                  Opportunity Development) and Managing Admissions and General
+                  Administration of the Institute.
+                </p>
+              </div>
+              <div className="text-right">
+                <p>From: 25-Aug-2007</p>
+                <p>To: 30-Jun-2008</p>
+                <p>Duration: Months: 10 Days: 5</p>
+              </div>
+            </div>
+
+            {/* IMT GHAZIABAD */}
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-4">
+              <div>
+                <h3 className="font-semibold">Employer: IMT GHAZIABAD</h3>
+                <p className="font-medium">Post Held: ASSOCIATE PROFESSOR</p>
+                <p className="text-gray-700 mt-1">
+                  Nature of Work: Teaching (Marketing), Research (Market
+                  Opportunity Development)
+                </p>
+              </div>
+              <div className="text-right">
+                <p>From: 25-Jun-2007</p>
+                <p>To: 24-Aug-2007</p>
+                <p>Duration: Months: 1 Days: 29</p>
+              </div>
             </div>
           </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="Hack The North" />
-              <AvatarFallback>HTN</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                04-Apr-2014 -{'>'} 16th December, 2019
-              </p>
-              <h2 className="text-xl font-semibold">Associate Professor</h2>
-              <p className="text-sm text-muted-foreground">Waterloo, Ontario</p>
-              <p>INDIAN INSTITUTE OF TECHNOLOGY (IIT) ROORKEE</p>
+        </section>
+
+        {/* Educational Details Section */}
+        <section>
+          <h2 className="text-2xl font-bold text-center mb-6 text-gray-800 border-b pb-2">
+            EDUCATIONAL DETAILS
+          </h2>
+
+          <div className="space-y-8">
+            {/* Ph.D. */}
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-4">
+              <div>
+                <h3 className="font-semibold">Qualification: Ph.D.</h3>
+                <p className="text-gray-700">
+                  Subjects: STRATEGIC MANAGEMENT AND BUSINESS OPPORTUNITY
+                  DEVELOPMENT, &quot;HEALTH CARE TO THE RURAL POPULATION IN
+                  INDIA&quot;
+                </p>
+                <p className="text-gray-700">College: UPTU, LUCKNOW</p>
+                <p className="text-gray-700">University: UPTU</p>
+              </div>
+              <div className="text-right">
+                <p className="font-medium">2006</p>
+              </div>
+            </div>
+
+            {/* Master Degree MBA */}
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-4">
+              <div>
+                <h3 className="font-semibold">
+                  Qualification: Master Degree MBA
+                </h3>
+                <p className="text-gray-700">
+                  Subjects: MARKETING MANAGEMENT, HUMAN RESOURCE MANAGEMENT,
+                  FINANCIAL MANAGEMENT, PRODUCTION MANAGEMENT, ACCOUNTING
+                  MANAGEMENT
+                </p>
+                <p className="text-gray-700">
+                  College: PHILIPPINE CHRISTIAN UNIVERSITY, MANILA, PHILIPPINES
+                </p>
+                <p className="text-gray-700">University: PCU, PHILIPPINES</p>
+              </div>
+              <div className="text-right">
+                <p className="font-medium">1994</p>
+              </div>
+            </div>
+
+            {/* Graduation BSBA */}
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-4">
+              <div>
+                <h3 className="font-semibold">
+                  Qualification: Graduation BSBA
+                </h3>
+                <p className="text-gray-700">
+                  Subjects: MARKETING, HUMAN RESOURCE MANAGEMENT, FINANCIAL
+                  MANAGEMENT, PRODUCTION MANAGEMENT, ACCOUNTING MANAGEMENT
+                </p>
+                <p className="text-gray-700">College: VMUF, PHILIPPINES</p>
+                <p className="text-gray-700">University: VMUF</p>
+              </div>
+              <div className="text-right">
+                <p className="font-medium">1992</p>
+              </div>
+            </div>
+
+            {/* Graduation (Additional Degree) */}
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-4">
+              <div>
+                <h3 className="font-semibold">
+                  Qualification: Graduation (Additional Degree)
+                </h3>
+                <p className="text-gray-700">Subjects: ECONOMICS</p>
+                <p className="text-gray-700">College: IGNOU, NEW DELHI</p>
+                <p className="text-gray-700">University: IGNOU</p>
+              </div>
+              <div className="text-right">
+                <p className="font-medium">2010</p>
+              </div>
+            </div>
+
+            {/* 12th */}
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-4">
+              <div>
+                <h3 className="font-semibold">Qualification: 12th</h3>
+                <p className="text-gray-700">
+                  Subjects: BIOLOGY, PHYSICS, CHEMISTRY AND ENGLISH
+                </p>
+                <p className="text-gray-700">
+                  College: KENDRIYA VIDYALAYA, BHEL, HARIDWAR
+                </p>
+                <p className="text-gray-700">University: CBSE</p>
+              </div>
+              <div className="text-right">
+                <p className="font-medium">1989</p>
+              </div>
+            </div>
+
+            {/* 10th */}
+            <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-4">
+              <div>
+                <h3 className="font-semibold">Qualification: 10th</h3>
+                <p className="text-gray-700">
+                  Subjects: SCIENCE, MATHEMATICS, SOCIAL SCIENCE, HINDI AND
+                  ENGLISH
+                </p>
+                <p className="text-gray-700">
+                  College: KENDRIYA VIDYALAYA, FAIZABAD
+                </p>
+                <p className="text-gray-700">University: CBSE</p>
+              </div>
+              <div className="text-right">
+                <p className="font-medium">1987</p>
+              </div>
             </div>
           </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage
-                src="/user.jpg"
-                alt="FirstNet Public Safety Hackathon"
-              />
-              <AvatarFallback>FPSH</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                March 23rd - 24th, 2018
-              </p>
-              <h2 className="text-xl font-semibold">
-                FirstNet Public Safety Hackathon
-              </h2>
-              <p className="text-sm text-muted-foreground">
-                San Francisco, California
-              </p>
-              <p>
-                Developed a mobile application which communicates a victims
-                medical data from inside an ambulance to doctors at hospital.
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="DeveloperWeek Hackathon" />
-              <AvatarFallback>DWH</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                February 3rd - 4th, 2018
-              </p>
-              <h2 className="text-xl font-semibold">DeveloperWeek Hackathon</h2>
-              <p className="text-sm text-muted-foreground">
-                San Francisco, California
-              </p>
-              <p>
-                Developed a web application which aggregates social media data
-                regarding cryptocurrencies and predicts future prices.
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="HackDavis" />
-              <AvatarFallback>HD</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                January 20th - 21st, 2018
-              </p>
-              <h2 className="text-xl font-semibold">HackDavis</h2>
-              <p className="text-sm text-muted-foreground">Davis, California</p>
-              <p>
-                Developed a mobile application which allocates a daily carbon
-                emission allowance to users to move towards a sustainable
-                environment.
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="ETH Waterloo" />
-              <AvatarFallback>ETHW</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                October 13th - 15th, 2017
-              </p>
-              <h2 className="text-xl font-semibold">ETH Waterloo</h2>
-              <p className="text-sm text-muted-foreground">Waterloo, Ontario</p>
-              <p>
-                Developed a blockchain application for doctors and pharmacists
-                to perform trustless transactions and prevent overdosage in
-                patients.
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="Hack The North" />
-              <AvatarFallback>HTN</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                September 15th - 17th, 2017
-              </p>
-              <h2 className="text-xl font-semibold">Hack The North</h2>
-              <p className="text-sm text-muted-foreground">Waterloo, Ontario</p>
-              <p>
-                Developed a virtual reality application allowing users to see
-                themselves in third person.
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="Hack The 6ix" />
-              <AvatarFallback>HT6</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                August 26th - 27th, 2017
-              </p>
-              <h2 className="text-xl font-semibold">Hack The 6ix</h2>
-              <p className="text-sm text-muted-foreground">Toronto, Ontario</p>
-              <p>
-                Developed an open platform for people shipping items to same
-                place to combine shipping costs and save money.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="max-w-3xl">
-        <h1 className="mb-6 text-3xl font-bold">Education</h1>
-        <div className="space-y-8">
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="Hack Western 5" />
-              <AvatarFallback>HW5</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">1992</p>
-              <h2 className="text-xl font-semibold">Graduation BSBA</h2>
-              <p className="text-sm text-muted-foreground">VMUF, PHILIPPINES</p>
-              <p>
-                MARKETING, HUMAN RESOURCE MANAGEMENT, FINANCIAL MANAGEMENT,
-                PRODUCTION MANAGEMENT, ACCOUNTING MANAGEMENT
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="Hack The North" />
-              <AvatarFallback>HTN</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">1994</p>
-              <h2 className="text-xl font-semibold">Master Degree MBA</h2>
-              <p className="text-sm text-muted-foreground">
-                PHILIPPINE CHRISTIAN UNIVERSITY, MANILA, PHILIPPINES
-              </p>
-              <p>
-                MARKETING MANAGEMENT, HUMAN RESOURCE MANAGEMENT, FINANCIAL
-                MANAGEMENT, PRODUCTION MANAGEMENT, ACCOUNTING MANAGEMENT
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage
-                src="/user.jpg"
-                alt="FirstNet Public Safety Hackathon"
-              />
-              <AvatarFallback>FPSH</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                March 23rd - 24th, 2018
-              </p>
-              <h2 className="text-xl font-semibold">
-                FirstNet Public Safety Hackathon
-              </h2>
-              <p className="text-sm text-muted-foreground">
-                San Francisco, California
-              </p>
-              <p>
-                Developed a mobile application which communicates a victims
-                medical data from inside an ambulance to doctors at hospital.
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="DeveloperWeek Hackathon" />
-              <AvatarFallback>DWH</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                February 3rd - 4th, 2018
-              </p>
-              <h2 className="text-xl font-semibold">DeveloperWeek Hackathon</h2>
-              <p className="text-sm text-muted-foreground">
-                San Francisco, California
-              </p>
-              <p>
-                Developed a web application which aggregates social media data
-                regarding cryptocurrencies and predicts future prices.
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="HackDavis" />
-              <AvatarFallback>HD</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                January 20th - 21st, 2018
-              </p>
-              <h2 className="text-xl font-semibold">HackDavis</h2>
-              <p className="text-sm text-muted-foreground">Davis, California</p>
-              <p>
-                Developed a mobile application which allocates a daily carbon
-                emission allowance to users to move towards a sustainable
-                environment.
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="ETH Waterloo" />
-              <AvatarFallback>ETHW</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                October 13th - 15th, 2017
-              </p>
-              <h2 className="text-xl font-semibold">ETH Waterloo</h2>
-              <p className="text-sm text-muted-foreground">Waterloo, Ontario</p>
-              <p>
-                Developed a blockchain application for doctors and pharmacists
-                to perform trustless transactions and prevent overdosage in
-                patients.
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="Hack The North" />
-              <AvatarFallback>HTN</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                September 15th - 17th, 2017
-              </p>
-              <h2 className="text-xl font-semibold">Hack The North</h2>
-              <p className="text-sm text-muted-foreground">Waterloo, Ontario</p>
-              <p>
-                Developed a virtual reality application allowing users to see
-                themselves in third person.
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <Avatar>
-              <AvatarImage src="/user.jpg" alt="Hack The 6ix" />
-              <AvatarFallback>HT6</AvatarFallback>
-            </Avatar>
-            <div>
-              <p className="text-sm text-muted-foreground">
-                August 26th - 27th, 2017
-              </p>
-              <h2 className="text-xl font-semibold">Hack The 6ix</h2>
-              <p className="text-sm text-muted-foreground">Toronto, Ontario</p>
-              <p>
-                Developed an open platform for people shipping items to same
-                place to combine shipping costs and save money.
-              </p>
-            </div>
-          </div>
-        </div>
+        </section>
       </div>
     </div>
   );

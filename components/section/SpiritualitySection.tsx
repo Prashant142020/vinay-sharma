@@ -8,9 +8,7 @@ export default function SpiritualitySection() {
       <div className="space-y-4">
         <div className="flex items-center gap-2">
           <Heart className="h-6 w-6 text-primary" />
-          <h2 className="text-3xl font-bold tracking-tight">
-            Spirituality & Outreach
-          </h2>
+          <h2 className="text-3xl font-bold tracking-tight">Spirituality</h2>
         </div>
         <p className="text-muted-foreground">
           Contributions to Indian Knowledge Systems and spiritual teachings.

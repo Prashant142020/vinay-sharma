@@ -17,14 +17,14 @@ export default function ResearchSection() {
           <div className="flex items-center gap-2">
             <FileText className="h-6 w-6 text-primary" />
             <h2 className="text-3xl font-bold tracking-tight">
-              Research & Publications
+              Journal Publications
             </h2>
           </div>
         </div>
 
         {/* <hr /> */}
         <p className="text-muted-foreground">
-          Contributions to academic literature and research.
+          Contributions to Journal Publications in the field of marketing.
         </p>
       </div>
       <div className="mt-8 space-y-8">

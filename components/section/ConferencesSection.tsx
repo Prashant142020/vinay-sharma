@@ -35,8 +35,8 @@ export default function ConferencesSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  &quot;The Future of Marketing in Rural Economies: Challenges
-                  and Opportunities&quot;
+                  &ldquo;The Future of Marketing in Rural Economies: Challenges and
+                  Opportunities&rdquo;
                 </p>
               </CardContent>
             </Card>
@@ -51,8 +51,8 @@ export default function ConferencesSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  &quot;Capability Approach in Marketing: Empowering Rural
-                  Communities&quot;
+                  &ldquo;Capability Approach in Marketing: Empowering Rural
+                  Communities&rdquo;
                 </p>
               </CardContent>
             </Card>
@@ -67,8 +67,8 @@ export default function ConferencesSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  &quot;Sustainable Innovation in Emerging Markets: A Framework
-                  for Success&quot;
+                  &ldquo;Sustainable Innovation in Emerging Markets: A Framework for
+                  Success&rdquo;
                 </p>
               </CardContent>
             </Card>
@@ -83,16 +83,15 @@ export default function ConferencesSection() {
                 <ul className="space-y-2">
                   <li className="text-sm">
                     <span className="font-medium">World Marketing Summit:</span>{' '}
-                    &quot;Digital Transformation in Rural Markets&quot;
+                    &ldquo;Digital Transformation in Rural Markets&rdquo;
                   </li>
                   <li className="text-sm">
                     <span className="font-medium">Sustainability Forum:</span>{' '}
-                    &quot;Green Marketing Strategies for the Future&quot;
+                    &ldquo;Green Marketing Strategies for the Future&rdquo;
                   </li>
                   <li className="text-sm">
                     <span className="font-medium">IIM Conclave:</span>{' '}
-                    &quot;Academia-Industry Collaboration in Marketing
-                    Research&quot;
+                    &ldquo;Academia-Industry Collaboration in Marketing Research&rdquo;
                   </li>
                 </ul>
               </AccordionContent>
@@ -105,13 +104,13 @@ export default function ConferencesSection() {
                     <span className="font-medium">
                       Global Marketing Conference:
                     </span>{' '}
-                    &quot;Post-Pandemic Marketing Strategies&quot;
+                    &ldquo;Post-Pandemic Marketing Strategies&rdquo;
                   </li>
                   <li className="text-sm">
                     <span className="font-medium">
                       Rural Development Summit:
                     </span>{' '}
-                    &quot;Marketing for Social Impact&quot;
+                    &ldquo;Marketing for Social Impact&rdquo;
                   </li>
                 </ul>
               </AccordionContent>
@@ -122,19 +121,19 @@ export default function ConferencesSection() {
                 <ul className="space-y-2">
                   <li className="text-sm">
                     <span className="font-medium">Innovation Forum:</span>{' '}
-                    &quot;Frugal Innovation in Emerging Markets&quot;
+                    &ldquo;Frugal Innovation in Emerging Markets&rdquo;
                   </li>
                   <li className="text-sm">
                     <span className="font-medium">
                       Digital Marketing Summit:
                     </span>{' '}
-                    &quot;Reaching Rural Consumers Digitally&quot;
+                    &ldquo;Reaching Rural Consumers Digitally&rdquo;
                   </li>
                   <li className="text-sm">
                     <span className="font-medium">
                       Sustainability Conference:
                     </span>{' '}
-                    &quot;Green Marketing in Practice&quot;
+                    &ldquo;Green Marketing in Practice&rdquo;
                   </li>
                 </ul>
               </AccordionContent>

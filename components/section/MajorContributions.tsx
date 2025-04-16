@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 import { Zap } from 'lucide-react';
+import Link from 'next/link';
 
 export default function MajorContributions() {
   return (
@@ -22,16 +23,21 @@ export default function MajorContributions() {
           <CardHeader className="flex flex-row items-center gap-4">
             <div>
               <CardTitle>
-                Acceptance of novel terminology in the field of marketing:
+                <Link
+                  href="https://www.sciencedirect.com/science/article/pii/S0019850124000646?via%3Dihub"
+                  className="hover:underline cursor-pointer"
+                >
+                  Acceptance of novel terminology in the field of marketing
+                </Link>
               </CardTitle>
             </div>
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground">
-              He has introduced new terminology in marketing management through
-              his research published in the Journal of Industrial Marketing
-              Management. Along with his co-authors, he has identified key
-              drivers of marketing innovation, including:
+              Introduced new terminology in marketing management through his
+              research published in the Journal of Industrial Marketing
+              Management (Q1, A* journal), which identifies key drivers of
+              marketing innovation.
             </p>
           </CardContent>
         </Card>
@@ -39,7 +45,12 @@ export default function MajorContributions() {
           <CardHeader className="flex flex-row items-center gap-4">
             <div>
               <CardTitle className="">
-                An unique award-winning matrix:
+                <Link
+                  href="https://link.springer.com/journal/13162/updates/26631600"
+                  className="hover:underline cursor-pointer"
+                >
+                  An unique award-winning matrix
+                </Link>
               </CardTitle>
             </div>
           </CardHeader>
@@ -55,13 +66,24 @@ export default function MajorContributions() {
         <Card>
           <CardHeader className="flex flex-row items-center gap-4">
             <div>
-              <CardTitle> Forest Bio-Residue Briquetting Machine</CardTitle>
+              <CardTitle>
+                {' '}
+                <Link
+                  href="https://www.youtube.com/watch?v=-izGxlxyZHw"
+                  className="hover:underline cursor-pointer"
+                >
+                  Forest Bio-Residue Briquetting Machine
+                </Link>
+              </CardTitle>
             </div>
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground">
-              This experiment spanned 12 years, during which we developed the
-              machine, averaging 100 hours per year, totalling 1200 hours.
+              In this project, he and his team developed an affordable, manually
+              operated technology to convert forest bio-residue and pine leaves
+              into energy briquettes. This product is energy-dense, requires no
+              mixing or heating, and offers year- round livelihood opportunities
+              for forest dwellers.
             </p>
           </CardContent>
         </Card>

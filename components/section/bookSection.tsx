@@ -40,29 +40,30 @@ export const BookCard = () => {
             </p>
           </div>
 
-          <div className=" mt-8  grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            <div className="group relative overflow-hidden rounded-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+          <div className=" mt-8  grid grid-cols-1 gap-6 sm:grid-cols-2  lg:grid-cols-3   xl:grid-cols-4">
+            <div className="group relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
               <Image
-                src="/book/book1.jpg"
-                alt="The Alchemist"
+                src="/book/book4.jpeg"
+                alt="Sapiens"
                 width={400}
                 height={600}
                 className="h-[400px] w-full object-cover transition-opacity duration-300 group-hover:opacity-80"
-                style={{ aspectRatio: '3/4', objectFit: 'cover' }}
+                style={{ aspectRatio: '400/600', objectFit: 'cover' }}
               />
-              <div className="bg-background/80 p-4 backdrop-blur-sm">
+              <div className="bg-background p-4">
                 <h3 className="mb-2 text-xl font-medium">
-                  Affordability for The Poor
+                  Marketing Management
                 </h3>
                 <p className="mb-4 text-sm text-muted-foreground">
-                  A model balances healthcare costs and profits in rural Uttar
-                  Pradesh through market and health initiatives{' '}
+                  He contributed an Appendix on Rural Marketing in the 13th
+                  edition of Philip Kotler&apos;s Principles of Marketing.
                 </p>
-                <Button size="sm" variant="link" className="">
+                <Button size="sm" variant="link">
                   Read more <ArrowRightIcon size={20} />
                 </Button>
               </div>
             </div>
+
             <div className="group relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
               <Image
                 src="/book/book2.jpg"
@@ -105,24 +106,24 @@ export const BookCard = () => {
                 </Button>
               </div>
             </div>
-            <div className="group relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+            <div className="group relative overflow-hidden rounded-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
               <Image
-                src="/book/book3.jpg"
-                alt="Sapiens"
+                src="/book/book1.jpg"
+                alt="The Alchemist"
                 width={400}
                 height={600}
                 className="h-[400px] w-full object-cover transition-opacity duration-300 group-hover:opacity-80"
-                style={{ aspectRatio: '400/600', objectFit: 'cover' }}
+                style={{ aspectRatio: '3/4', objectFit: 'cover' }}
               />
-              <div className="bg-background p-4">
+              <div className="bg-background/80 p-4 backdrop-blur-sm">
                 <h3 className="mb-2 text-xl font-medium">
-                  Stop Predicting Revisit Life
+                  Affordability for The Poor
                 </h3>
                 <p className="mb-4 text-sm text-muted-foreground">
-                  It reviews India&apos;s COVID-19 response and suggests future
-                  strategies, improvements, and initiatives.
+                  A model balances healthcare costs and profits in rural Uttar
+                  Pradesh through market and health initiatives&nbsp;
                 </p>
-                <Button size="sm" variant="link">
+                <Button size="sm" variant="link" className="">
                   Read more <ArrowRightIcon size={20} />
                 </Button>
               </div>

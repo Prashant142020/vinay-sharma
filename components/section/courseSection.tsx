@@ -65,12 +65,12 @@ export default function CourseSection() {
               className="flex flex-col overflow-hidden rounded-lg shadow-md"
             >
               {/* Image Section */}
-              <div className="relative w-full h-48 overflow-hidden mt-[-26px]">
+              <div className="relative w-full h-48 overflow-hidden mt-[-42px]">
                 <Image
                   src={course.image}
                   alt={course.title}
                   layout="fill"
-                  objectFit="cover"
+                  objectFit="contain"
                   className=""
                 />
               </div>
@@ -82,7 +82,12 @@ export default function CourseSection() {
                 <p className="mb-4 text-sm text-muted-foreground line-clamp-3">
                   {course.content}
                 </p>
-                <Link href={course.link} passHref>
+                <Link
+                  href={course.link}
+                  passHref
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button variant="default" size="sm">
                     Learn More
                   </Button>

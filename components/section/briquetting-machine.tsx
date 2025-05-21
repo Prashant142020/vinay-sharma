@@ -1,12 +1,21 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import Image from "next/image"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
+import Image from 'next/image';
 
 export default function BriquettingMachine() {
   return (
     <Card className="w-full max-w-4xl mx-auto">
       <CardHeader>
         <CardTitle>Hydraulic Briquetting Machine</CardTitle>
-        <CardDescription>Converting pine needles into energy briquettes without electricity or heating</CardDescription>
+        <CardDescription>
+          Converting pine needles into energy briquettes without electricity or
+          heating
+        </CardDescription>
       </CardHeader>
       <CardContent className="flex flex-col md:flex-row gap-6">
         <div className="flex-1">
@@ -51,5 +60,5 @@ export default function BriquettingMachine() {
         </div>
       </CardContent>
     </Card>
-  )
+  );
 }

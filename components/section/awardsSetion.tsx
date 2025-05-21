@@ -28,7 +28,11 @@ export default function AwardsSetion() {
               <Award className="h-6 w-6 text-primary shrink-0" />
             </div>
             <div>
-              <Link href="https://ndtv.in/videos/national-teachers-award-award-announced-for-professor-vinay-sharma-watch-this-special-conversation-834059">
+              <Link
+                href="https://ndtv.in/videos/national-teachers-award-award-announced-for-professor-vinay-sharma-watch-this-special-conversation-834059"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <CardTitle className="hover:underline cursor-pointer">
                   National Award to Teachers 2024, presented by the President of
                   India
@@ -52,10 +56,15 @@ export default function AwardsSetion() {
               <Award className="h-6 w-6 text-primary" />
             </div>
             <div>
-              <Link href="https://link.springer.com/journal/13162/updates/26631600"></Link>
-              <CardTitle className="hover:underline cursor-pointer">
-                Sheth Foundation Award
-              </CardTitle>
+              <Link
+                href="https://link.springer.com/journal/13162/updates/26631600"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardTitle className="hover:underline cursor-pointer">
+                  Sheth Foundation Award
+                </CardTitle>
+              </Link>
               <CardDescription>2024</CardDescription>
             </div>
           </CardHeader>

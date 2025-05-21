@@ -52,7 +52,7 @@ export const BookCard = () => {
               />
               <div className="bg-background p-4">
                 <h3 className="mb-2 text-xl font-medium">
-                  Marketing Management
+                  Principles of Marketing
                 </h3>
                 <p className="mb-4 text-sm text-muted-foreground">
                   He contributed an Appendix on Rural Marketing in the 13th
@@ -79,8 +79,15 @@ export const BookCard = () => {
                   Examines the evolution and future of management education in
                   India through expert interviews.
                 </p>
-                <Button size="sm" variant="link">
-                  Read more <ArrowRightIcon size={20} />
+
+                <Button asChild size="sm" variant="link">
+                  <a
+                    href="https://www.bloomsbury.com/in/masters-speak-9789384898120/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Read more <ArrowRightIcon size={20} />
+                  </a>
                 </Button>
               </div>
             </div>
@@ -101,8 +108,14 @@ export const BookCard = () => {
                   It reviews India&apos;s COVID-19 response and suggests future
                   strategies, improvements, and initiatives.
                 </p>
-                <Button size="sm" variant="link">
-                  Read more <ArrowRightIcon size={20} />
+                <Button asChild size="sm" variant="link">
+                  <a
+                    href="https://www.bloomsbury.com/in/stop-predicting--revisit-life-9789354350924/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Read more <ArrowRightIcon size={20} />
+                  </a>
                 </Button>
               </div>
             </div>
@@ -123,8 +136,14 @@ export const BookCard = () => {
                   A model balances healthcare costs and profits in rural Uttar
                   Pradesh through market and health initiatives&nbsp;
                 </p>
-                <Button size="sm" variant="link" className="">
-                  Read more <ArrowRightIcon size={20} />
+                <Button asChild size="sm" variant="link" className="">
+                  <a
+                    href="https://www.amazon.com/AFFORDABILITY-POOR-PROFITABILITY-PROVIDER-Population/dp/3639161823#:~:text=Book%20overview,Market%20and%20Business%20Opportunity%20Development"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Read more <ArrowRightIcon size={20} />
+                  </a>
                 </Button>
               </div>
             </div>

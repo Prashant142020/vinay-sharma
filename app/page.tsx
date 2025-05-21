@@ -27,7 +27,7 @@ export default function ProfessorPage() {
       <PhdSection />
 
       <LeadershipSection />
-      
+
       <AcademicRoles />
 
       <SpiritualitySection />

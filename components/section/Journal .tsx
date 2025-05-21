@@ -80,7 +80,7 @@ export default function Journal() {
           </p>
         </li>
       </ol>
-      <div className="mt-4 flex justify-center">
+      <div className="mt-5 flex justify-center">
         <Link href="/journal">
           <Button variant="outline">View All </Button>
         </Link>
@@ -88,7 +88,7 @@ export default function Journal() {
 
       {/* here 2nd */}
 
-      <div className="space-y-4">
+      <div className="space-y-4 mt-4">
         <div className="flex justify-between">
           <div className="flex items-center gap-2">
             <FileText className="h-6 w-6 text-primary" />
@@ -122,24 +122,24 @@ export default function Journal() {
         </li>
         <li className="pl-2">
           <p className="text-sm sm:text-base">
-            Sharma, V., Neha., Agrawal, R. (2023). &apos;Reducing vulnerability with
-            concentric technological interventions through cooperative
-            re-building processes for consistent livelihood.&apos; An experimental
-            learning in North-western Himalayas&apos;. Paper selected for
-            presentation at the annual conference of the HDCA 2023 at Sofia,
-            Bulgaria.
+            Sharma, V., Neha., Agrawal, R. (2023). &apos;Reducing vulnerability
+            with concentric technological interventions through cooperative
+            re-building processes for consistent livelihood.&apos; An
+            experimental learning in North-western Himalayas&apos;. Paper
+            selected for presentation at the annual conference of the HDCA 2023
+            at Sofia, Bulgaria.
           </p>
         </li>
         <li className="pl-2">
           <p className="text-sm sm:text-base">
-            Sharma, V., Neha., Agrawal, R. (2023). &apos;&apos;Concentric Innovation for
-            Reducing Vulnerability- A learning from Northwestern Himalayas&apos;&apos;
-            Paper selected for presentation at the annual conference of the HDCA
-            2023 at Sofia, Bulgaria.
+            Sharma, V., Neha., Agrawal, R. (2023). &apos;&apos;Concentric
+            Innovation for Reducing Vulnerability- A learning from Northwestern
+            Himalayas&apos;&apos; Paper selected for presentation at the annual
+            conference of the HDCA 2023 at Sofia, Bulgaria.
           </p>
         </li>
       </ol>
-      <div className="mt-4 flex justify-center">
+      <div className="mt-5 flex justify-center">
         <Link href="/conference">
           <Button variant="outline">View All </Button>
         </Link>
@@ -147,7 +147,7 @@ export default function Journal() {
 
       {/* here 3rd */}
 
-      <div className="space-y-4">
+      <div className="space-y-4 mt-4">
         <div className="flex justify-between">
           <div className="flex items-center gap-2">
             <FileText className="h-6 w-6 text-primary" />
@@ -171,14 +171,14 @@ export default function Journal() {
         <li className="pl-2">
           <p className="text-sm sm:text-base">
             Sengar A., Sharma V., Agrawal R., Jain N., & Jain, P. (2016). A case
-            study of Patanjali Ayurved Ltd - Offering consumer products with &apos;a
-            blue ocean strategy. Case Centre, Reference No. 316-0428-1.
+            study of Patanjali Ayurved Ltd - Offering consumer products with
+            &apos;a blue ocean strategy. Case Centre, Reference No. 316-0428-1.
           </p>
         </li>
         <li className="pl-2">
           <p className="text-sm sm:text-base">
-            Sharma, V. (2011). Think people&apos;s development- Focus on means- build
-            trust- Do business for ever-A case study on the strategic
+            Sharma, V. (2011). Think people&apos;s development- Focus on means-
+            build trust- Do business for ever-A case study on the strategic
             development of TATAs as an organization and their contribution in
             the societal and national development. European Case Clearing House
             posted on www.ecch.com.

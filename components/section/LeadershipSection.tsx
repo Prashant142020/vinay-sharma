@@ -27,23 +27,60 @@ export default function LeadershipSection() {
         <ul className="grid gap-3 md:grid-cols-2">
           <li className="flex items-start gap-2">
             <div className="mt-1 h-2 w-2 rounded-full bg-primary" />
-            <span>2.15 cr. International Salary for 1 student</span>
+
+            <a
+              href="https://www.business-standard.com/article/education/iit-roorkee-student-bags-record-salary-package-at-rs-2-15-crore-121122300987_1.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              <span>2.15 cr. International Salary for 1 student</span>
+            </a>
           </li>
           <li className="flex items-start gap-2">
             <div className="mt-1 h-2 w-2 rounded-full bg-primary" />
-            <span>1.8 cr. Domestic Salary for 3 students: </span>
+            <a
+              href="https://timesofindia.indiatimes.com/city/dehradun/at-rs-2-15-cr-iit-roorkee-student-bags-record-salary-offer/articleshow/88058216.cms?from=mdr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              <span>1.8 cr. Domestic Salary for 3 students: </span>
+            </a>
+          </li>
+
+          <li className="flex items-start gap-2">
+            <div className="mt-1 h-2 w-2 rounded-full bg-primary" />
+            <a
+              href="https://www.telegraphindia.com/edugraph/news/iit-roorkee-begins-placement-drive-for-2021-22-batch-with-strategy-change-for-pandemic/cid/1841581"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              <span>11 Students got more than 1 cr. Salary</span>
+            </a>
           </li>
           <li className="flex items-start gap-2">
             <div className="mt-1 h-2 w-2 rounded-full bg-primary" />
-            <span>11 Students got more than 1 cr. Salary</span>
+            <a
+              href="https://www.business-standard.com/article/education/iit-roorkee-student-bags-record-salary-package-at-rs-2-15-crore-121122300987_1.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              <span> 32 International offers: </span>
+            </a>
           </li>
           <li className="flex items-start gap-2">
             <div className="mt-1 h-2 w-2 rounded-full bg-primary" />
-            <span> 32 International offers: </span>
-          </li>
-          <li className="flex items-start gap-2">
-            <div className="mt-1 h-2 w-2 rounded-full bg-primary" />
-            <span> 1416 job offers: </span>
+            <a
+              href="https://www.cnbctv18.com/news/rs-215-crore-package-for-iit-roorkee-student-uber-offers-rs-205-crore-to-two-other-iitians-11674642.htm"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              <span> 1416 job offers: </span>
+            </a>
           </li>
         </ul>
       </div>

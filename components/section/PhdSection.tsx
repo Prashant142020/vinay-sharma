@@ -3,6 +3,189 @@ import React from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs';
 import { Badge } from '../ui/badge';
 
+// 1. Extract table data as constants
+const awardedPhdData = [
+  {
+    name: 'Neha',
+    title: 'Concentric Innovation',
+    year: '2025',
+    status: 'Awarded',
+  },
+  {
+    name: 'Dr. Kapil Joshi',
+    title: 'POST DOCTORAL THESIS on Practically realising the Value Chain',
+    year: '2021',
+    status: 'Awarded',
+  },
+  {
+    name: 'Anita Sengar',
+    title: 'A Study of Evolving Perspectives of Rural Markets.',
+    year: '2014',
+    status: 'Awarded',
+  },
+  {
+    name: 'Kapil Joshi',
+    title:
+      'Climate change mitigation through management of pine forest bio residue in N-W Himalayas.',
+    year: '2014',
+    status: 'Awarded',
+  },
+  {
+    name: 'Kumkum Bharti',
+    title:
+      'Conceptualizing and measuring value co-creation for the bottom of the pyramid marketing in India.',
+    year: '2015',
+    status: 'Awarded',
+  },
+
+  {
+    name: 'Rupesh Kumar',
+    title:
+      'Analysis of sustainable supply chain management practices in Indian manufacturing industries.',
+    year: '2012',
+    status: 'Awarded',
+  },
+
+  {
+    name: 'Ritika Mahajan',
+    title:
+      'Post Graduate Management Education in India: Growth, Relevance and Direction.',
+    year: '2014',
+    status: 'Awarded',
+  },
+  {
+    name: 'Asha Upawanshi',
+    title:
+      'A Study of Credit related Experiences of Farmer Household in Vidharbha Region of India.',
+    year: '2011',
+    status: 'Awarded',
+  },
+  {
+    name: 'Piyush Seth',
+    title:
+      'An Empirical Study of Effects of ICT enabled Business Development Opportunities on the Capability Development of Rural Population.',
+    year: '2011',
+    status: 'Awarded',
+  },
+  {
+    name: 'Sumit Mishra',
+    title:
+      'Value realization in marketing theory: An ancient Indian perspective.',
+    year: '2013',
+    status: 'Awarded',
+  },
+  {
+    name: 'Shashi Kant',
+    title:
+      'A Study of Organizational Evidence of Gandhian Management Perspective with special reference to BHEL.',
+    year: '2013',
+    status: 'Awarded',
+  },
+  {
+    name: 'Farhan Mustafa',
+    title:
+      'Marketing pervasiveness driven by belief and ethics based marketing practices',
+    year: '2017',
+    status: 'Awarded',
+  },
+  {
+    name: 'Vijay Kr. Sharma',
+    title:
+      'Study and Analysis of Health Care Supply Chain Performance with CRM Considerations',
+    year: '2017',
+    status: 'Awarded',
+  },
+];
+
+const ongoingPhdData = [
+  {
+    name: 'Manvi Goel',
+    title: `A marketers' Perspective on Integrated Marketing Communication through the lenses of Linguistic Relativity`,
+    year: '2019',
+    status: 'Ongoing',
+  },
+  {
+    name: 'Rakesh G Nair',
+    title:
+      'Growers Insights on Branding and Marketing of Plant-based Immunomodulators in Indian Himalayan Region',
+    year: '2020',
+    status: 'Ongoing',
+  },
+  {
+    name: 'Ariba Anjum',
+    title: `Marketing Saga of Universally Familiar Products: A Tale with an Inventors and Innovators Perspective`,
+    year: '2021',
+    status: 'Ongoing',
+  },
+  {
+    name: 'Nandhakishore K',
+    title: 'Brand IIT Éclat',
+    year: '2021',
+    status: 'Ongoing',
+  },
+
+  {
+    name: 'Gajendra Giri',
+    title: 'Actual Benefits of Contemporary Avtar of Traditional Process',
+    year: '2021',
+    status: 'Ongoing',
+  },
+  {
+    name: 'Kritika Sharma',
+    title: 'Technology and Traditional Knowledge',
+    year: '2022',
+    status: 'Ongoing',
+  },
+];
+
+// 2. Create a reusable table component
+interface PhdTableProps {
+  data: { name: string; title: string; year: string; status: string }[];
+  statusType: 'Awarded' | 'Ongoing';
+}
+
+function PhdTable({ data, statusType }: PhdTableProps) {
+  return (
+    <table className="w-full">
+      <thead>
+        <tr className="border-b bg-muted/50">
+          <th className="px-4 py-3 text-left text-sm font-medium">
+            Student Name
+          </th>
+          <th className="px-4 py-3 text-left text-sm font-medium">
+            Thesis Title
+          </th>
+          <th className="px-4 py-3 text-left text-sm font-medium">
+            {statusType === 'Awarded' ? 'Year' : 'Year Started'}
+          </th>
+          <th className="px-4 py-3 text-left text-sm font-medium">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {data.map((row, idx) => (
+          <tr className="border-b" key={idx}>
+            <td className="px-4 py-3 text-sm">{row.name}</td>
+            <td className="px-4 py-3 text-sm">{row.title}</td>
+            <td className="px-4 py-3 text-sm">{row.year}</td>
+            <td className="px-4 py-3 text-sm">
+              <Badge
+                className={
+                  statusType === 'Awarded'
+                    ? 'bg-green-100 text-green-800 hover:bg-green-100'
+                    : 'bg-amber-100 text-amber-800 hover:bg-amber-100'
+                }
+              >
+                {row.status}
+              </Badge>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
+}
+
+// 3. Use the component in the main section
 export default function PhdSection() {
   return (
     <section id="students" className="py-12 scroll-mt-20">
@@ -24,205 +207,14 @@ export default function PhdSection() {
           <TabsContent value="awarded" className="mt-4">
             <div className="rounded-md border">
               <div className="overflow-x-auto">
-                <table className="w-full">
-                  <thead>
-                    <tr className="border-b bg-muted/50">
-                      <th className="px-4 py-3 text-left text-sm font-medium">
-                        Student Name
-                      </th>
-                      <th className="px-4 py-3 text-left text-sm font-medium">
-                        Thesis Title
-                      </th>
-                      <th className="px-4 py-3 text-left text-sm font-medium">
-                        Year
-                      </th>
-                      <th className="px-4 py-3 text-left text-sm font-medium">
-                        Status
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="border-b">
-                      <td className="px-4 py-3 text-sm"> Dr. Kapil Joshi</td>
-                      <td className="px-4 py-3 text-sm">
-                        POST DOCTORAL THESIS on Practically realising the Value
-                        Chain
-                      </td>
-                      <td className="px-4 py-3 text-sm">2021</td>
-                      <td className="px-4 py-3 text-sm">
-                        <Badge className="bg-green-100 text-green-800 hover:bg-green-100">
-                          Awarded
-                        </Badge>
-                      </td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="px-4 py-3 text-sm"> Anita Sengar</td>
-                      <td className="px-4 py-3 text-sm">
-                        A Study of Evolving Perspectives of Rural Markets.
-                      </td>
-                      <td className="px-4 py-3 text-sm">2014</td>
-                      <td className="px-4 py-3 text-sm">
-                        <Badge className="bg-green-100 text-green-800 hover:bg-green-100">
-                          Awarded
-                        </Badge>
-                      </td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="px-4 py-3 text-sm">Kapil Joshi</td>
-                      <td className="px-4 py-3 text-sm">
-                        Climate change mitigation through management of pine
-                        forest bio residue in N-W Himalayas.
-                      </td>
-                      <td className="px-4 py-3 text-sm">2015</td>
-                      <td className="px-4 py-3 text-sm">
-                        <Badge className="bg-green-100 text-green-800 hover:bg-green-100">
-                          Awarded
-                        </Badge>
-                      </td>
-                    </tr>
-
-                    <tr className="border-b">
-                      <td className="px-4 py-3 text-sm"> Kumkum Bharti</td>
-                      <td className="px-4 py-3 text-sm">
-                        Conceptualizing and measuring value co-creation for the
-                        bottom of the pyramid marketing in India.
-                      </td>
-                      <td className="px-4 py-3 text-sm">2019</td>
-                      <td className="px-4 py-3 text-sm">
-                        <Badge className="bg-green-100 text-green-800 hover:bg-green-100">
-                          Awarded
-                        </Badge>
-                      </td>
-                    </tr>
-
-                    <tr className="border-b">
-                      <td className="px-4 py-3 text-sm"> Kumkum Bharti</td>
-                      <td className="px-4 py-3 text-sm">
-                        Conceptualizing and measuring value co-creation for the
-                        bottom of the pyramid marketing in India.
-                      </td>
-                      <td className="px-4 py-3 text-sm">2019</td>
-                      <td className="px-4 py-3 text-sm">
-                        <Badge className="bg-green-100 text-green-800 hover:bg-green-100">
-                          Awarded
-                        </Badge>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+                <PhdTable data={awardedPhdData} statusType="Awarded" />
               </div>
             </div>
           </TabsContent>
           <TabsContent value="ongoing" className="mt-4">
             <div className="rounded-md border">
               <div className="overflow-x-auto">
-                <table className="w-full">
-                  <thead>
-                    <tr className="border-b bg-muted/50">
-                      <th className="px-4 py-3 text-left text-sm font-medium">
-                        Student Name
-                      </th>
-                      <th className="px-4 py-3 text-left text-sm font-medium">
-                        Thesis Title
-                      </th>
-                      <th className="px-4 py-3 text-left text-sm font-medium">
-                        Year Started
-                      </th>
-                      <th className="px-4 py-3 text-left text-sm font-medium">
-                        Status
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="border-b">
-                      <td className="px-4 py-3 text-sm">Manvi Goel</td>
-                      <td className="px-4 py-3 text-sm">
-                        A marketers&apos; Perspective on Integrated Marketing
-                        Communication through the lenses of Linguistic
-                        Relativity
-                      </td>
-                      <td className="px-4 py-3 text-sm">2019</td>
-                      <td className="px-4 py-3 text-sm">
-                        <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">
-                          Ongoing
-                        </Badge>
-                      </td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="px-4 py-3 text-sm">Rakesh G Nair</td>
-                      <td className="px-4 py-3 text-sm">
-                        Growers Insights on Branding and Marketing of
-                        Plant-based Immunomodulators in Indian Himalayan Region
-                      </td>
-                      <td className="px-4 py-3 text-sm">2020</td>
-                      <td className="px-4 py-3 text-sm">
-                        <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">
-                          Ongoing
-                        </Badge>
-                      </td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="px-4 py-3 text-sm">Ariba Anjum</td>
-                      <td className="px-4 py-3 text-sm">
-                        Marketing Saga of Universally Familiar Products: A Tale
-                        with an Inventors and Innovators Perspective
-                      </td>
-                      <td className="px-4 py-3 text-sm">2021</td>
-                      <td className="px-4 py-3 text-sm">
-                        <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">
-                          Ongoing
-                        </Badge>
-                      </td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="px-4 py-3 text-sm">Nandhakishore K</td>
-                      <td className="px-4 py-3 text-sm">Brand IIT Éclat</td>
-                      <td className="px-4 py-3 text-sm">2021</td>
-                      <td className="px-4 py-3 text-sm">
-                        <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">
-                          Ongoing
-                        </Badge>
-                      </td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="px-4 py-3 text-sm">Neha</td>
-                      <td className="px-4 py-3 text-sm">
-                        Celebrity Homologation of Celebrity endorsement
-                      </td>
-                      <td className="px-4 py-3 text-sm">2021</td>
-                      <td className="px-4 py-3 text-sm">
-                        <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">
-                          Ongoing
-                        </Badge>
-                      </td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="px-4 py-3 text-sm">Gajendra Giri</td>
-                      <td className="px-4 py-3 text-sm">
-                        Actual Benefits of Contemporary Avtar of Traditional
-                        Process
-                      </td>
-                      <td className="px-4 py-3 text-sm">2021</td>
-                      <td className="px-4 py-3 text-sm">
-                        <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">
-                          Ongoing
-                        </Badge>
-                      </td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="px-4 py-3 text-sm">Kritika Sharma</td>
-                      <td className="px-4 py-3 text-sm">
-                        Technology and Traditional Knowledge
-                      </td>
-                      <td className="px-4 py-3 text-sm">2022</td>
-                      <td className="px-4 py-3 text-sm">
-                        <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">
-                          Ongoing
-                        </Badge>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+                <PhdTable data={ongoingPhdData} statusType="Ongoing" />
               </div>
             </div>
           </TabsContent>

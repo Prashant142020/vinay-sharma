@@ -91,7 +91,7 @@ const coPiData = [
     '1.',
     'Need assessment of Ganga Water for rituals',
     'Motilal Bhimaji Trust',
-    '.67 lakhs',
+    '67 lakhs',
     '2014 6 Months',
     'Dr. Rajat Agrawal',
     'Completed',
@@ -115,7 +115,7 @@ const coPiData = [
     'Ongoing',
   ],
   [
-    '5.',
+    '4.',
     'Socio and Commercialization aspect of Forest Bio-Residue Briquetting Machine',
     'Dept. of Forest, Govt. of Uttarakhand',
     '7.5 Lakhs',
@@ -124,7 +124,7 @@ const coPiData = [
     'Completed',
   ],
   [
-    '6.',
+    '5.',
     'Carrying Capacity Assessment of the Tourist Destination of Auli keeping Eco sensitivity of the place in mind',
     'Govt. of Uttarakhand',
     'Around 5 Lakhs',

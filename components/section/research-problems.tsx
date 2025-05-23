@@ -2,22 +2,12 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
-import {
-  FileText,
-  Play,
-  Leaf,
-  Users,
-  BookOpen,
-  Building,
-  HeartPulse,
-} from 'lucide-react';
-import Link from 'next/link';
+
+import { Leaf, Users, BookOpen, Building, HeartPulse } from 'lucide-react';
 
 export default function ResearchProblems() {
   return (
@@ -82,20 +72,6 @@ export default function ResearchProblems() {
               </ul>
             </div>
           </CardContent>
-          <CardFooter className="flex flex-wrap gap-3">
-            <Button variant="outline" size="sm" asChild>
-              <Link href="#" className="flex items-center gap-1">
-                <Play className="h-4 w-4" />
-                Watch Video
-              </Link>
-            </Button>
-            <Button variant="outline" size="sm" asChild>
-              <Link href="#" className="flex items-center gap-1">
-                <FileText className="h-4 w-4" />
-                Success Story PDF
-              </Link>
-            </Button>
-          </CardFooter>
         </Card>
 
         {/* Bottom of the Pyramid */}
@@ -149,14 +125,6 @@ export default function ResearchProblems() {
               </ul>
             </div>
           </CardContent>
-          <CardFooter className="flex flex-wrap gap-3">
-            <Button variant="outline" size="sm" asChild>
-              <Link href="#" className="flex items-center gap-1">
-                <FileText className="h-4 w-4" />
-                View Publication
-              </Link>
-            </Button>
-          </CardFooter>
         </Card>
 
         {/* Management Education */}
@@ -209,20 +177,6 @@ export default function ResearchProblems() {
               </ul>
             </div>
           </CardContent>
-          <CardFooter className="flex flex-wrap gap-3">
-            <Button variant="outline" size="sm" asChild>
-              <Link href="#" className="flex items-center gap-1">
-                <BookOpen className="h-4 w-4" />
-                View Book
-              </Link>
-            </Button>
-            <Button variant="outline" size="sm" asChild>
-              <Link href="#" className="flex items-center gap-1">
-                <FileText className="h-4 w-4" />
-                View Paper
-              </Link>
-            </Button>
-          </CardFooter>
         </Card>
 
         {/* Rural Markets */}
@@ -248,8 +202,8 @@ export default function ResearchProblems() {
                   inclusive upliftment.
                 </li>
                 <li>
-                  Case study on Patanjali Ayurved Ltd.&apos;s Blue Ocean Strategy in
-                  rural India.
+                  Case study on Patanjali Ayurved Ltd.&apos;s Blue Ocean
+                  Strategy in rural India.
                 </li>
                 <li>Prioritized barriers using Fuzzy-AHP modelling.</li>
               </ul>
@@ -269,14 +223,6 @@ export default function ResearchProblems() {
               </ul>
             </div>
           </CardContent>
-          <CardFooter className="flex flex-wrap gap-3">
-            <Button variant="outline" size="sm" asChild>
-              <Link href="#" className="flex items-center gap-1">
-                <FileText className="h-4 w-4" />
-                View Case Study
-              </Link>
-            </Button>
-          </CardFooter>
         </Card>
 
         {/* Healthcare */}
@@ -325,14 +271,6 @@ export default function ResearchProblems() {
               </ul>
             </div>
           </CardContent>
-          <CardFooter className="flex flex-wrap gap-3">
-            <Button variant="outline" size="sm" asChild>
-              <Link href="#" className="flex items-center gap-1">
-                <BookOpen className="h-4 w-4" />
-                View Book
-              </Link>
-            </Button>
-          </CardFooter>
         </Card>
       </div>
     </div>

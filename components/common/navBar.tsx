@@ -50,7 +50,7 @@ export default function NavBar() {
               href="/problems-addressed"
               className="text-sm font-medium hover:underline"
             >
-              Problems addressed
+              Problems Addressed
             </Link>
             <Link
               href="/contact"
@@ -123,7 +123,7 @@ export default function NavBar() {
                 href="/problems-addressed"
                 className="text-lg font-medium hover:underline"
               >
-                Problems addressed
+                Problems Addressed
               </Link>
 
               <Link
